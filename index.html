@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" media="screen and (max-width: 375px)" href="responsividade.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="responsividade-1.css">
+  <link rel="stylesheet" media="screen and (min-height: 1500px)" href="responsividade-mobile.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section id="main">
+
+    <section id="main-container">
+
+      <section id="main-inputs">
+      <div id="dia">
+          <p id="DAY">DAY</p>
+          <input type="text" id="input-dia" placeholder="DD">
+          <p id="ERRO_DIA"></p>
+      </div>
+      <div id="mes">
+          <p id="MES">MONTH</p>
+          <input type="text" id="input-mes" placeholder="MM">
+          <p id="ERRO_MES"></p>
+      </div>
+      <div id="ano">
+          YEAR
+          <input type="text" id="input-ano" placeholder="YYYY">
+          <p id="ERRO_ANO"></p>
+        </div>
+
+    </section>
+
+    <hr id="linha">
+    
+    <section id="svg">
+
+    <div id="svg-container">
+
+    <button id="oo" onclick="Calcular()"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" id="svg-foto"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+
+    </div>
+
+    </section>
+
+    <section id="resultado">
+      <div id="resultado-ano">
+          <p id="Res-ano">--</p> <p id="conteudo-ano">years</p>
+      </div>
+      <div id="resultado-mes">
+          <p id="Res-mes">--</p> <p id="conteudo-mes">months</p>
+      </div>
+      <div id="resultado-dia">
+          <p id="Res-dia">--</p> <p id="conteudo-dia">days</p>
+      </div>
+
+    </section>
+
+</section>
+
+</section>
+
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/LuccasDutraF/Age-Calculator">LDev</a>.
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+#main-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    margin-top: 20%;
+    border-radius: 18px;
+    border-bottom-right-radius: 129px;
+}
+
+#input-dia {
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 86%);
+    margin-top: 2%;
+    font-family: Poppins;
+    padding-left: 7%;
+}
+
+#input-mes {
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 86%);
+    margin-top: 2%;
+    font-family: Poppins;
+    padding-left: 7%;
+}
+
+#input-ano {
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 86%);
+    margin-top: 2%;
+    font-family: Poppins;
+    padding-left: 7%;
+}
+
+#linha {
+    width: 100%;
+    margin-top: 8%;
+    margin-left: 0%;
+}
+
+#svg {
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+#svg-container {
+    background-color: hsl(259, 100%, 65%);
+    width: 15%;
+    border-radius: 27px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+}
+
+#Res-ano {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 250%;
+    color: hsl(259, 100%, 65%);
+}
+
+#conteudo-ano {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 250%;
+    padding-left: 1%;
+}
+
+#svg-foto {
+    padding-top: 0px;
+    width: 22px;
+}
+
+#Res-mes {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 250%;
+    color: hsl(259, 100%, 65%);
+}
+
+#conteudo-mes {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 250%;
+    padding-left: 1%;
+}
+
+#Res-dia {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 250%;
+    color: hsl(259, 100%, 65%);
+}
+
+#conteudo-dia {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 250%;
+    padding-left: 1%;
+    padding-bottom: 4%;
+}
